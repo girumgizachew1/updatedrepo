@@ -50,7 +50,7 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
             <span className="brand-logo__text-wrapper">
               <img
                 className="brand-logo__text"
-                src="svg/text.png " height={60}
+                src="svg/text.png " height={40}
                 alt="Girum gizachew logo"
               />
             </span>
