@@ -42,14 +42,14 @@ export const Navigation = ({ isOpen, toggleOpen }: any) => {
           <a className="brand-logo">
             <img
               className="brand-logo__icon"
-              src="svg/adeola-logo-left.svg"
-              alt="adeola logo icon"
+              src="svg/logo2.png" width={60} height={40}
+              alt="Girum gizachew logo"
             />
             <span className="brand-logo__text-wrapper">
               <img
                 className="brand-logo__text"
-                src="svg/adeola-logo-right.svg"
-                alt="adeola logo text"
+                src="svg/text.png " height={60}
+                alt="Girum gizachew logo"
               />
             </span>
           </a>

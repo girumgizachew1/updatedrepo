@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Navigation } from "../components/Navigation/Navigation";
 import useSwr from "swr";
 import ReactGa from "react-ga";
-
 interface indexProps {}
 
 interface Ireply {
@@ -84,17 +83,6 @@ const index: React.FC<indexProps> = ({}) => {
     };
 
     console.clear();
-    console.log.apply(console, [
-      "%c Designed and Developed by Adeola Adeoti %c %c🚀 %c\n",
-      "color: #fff; background: #8000ff; padding:5px 0;",
-      "color: #fff; background: #242424; padding:5px 0 5px 5px;",
-      "background: #242424; padding:5px 0",
-      "background: #242424; padding:5px 5px 5px 0",
-    ]);
-    console.log.apply(console, [
-      "%c Thanks for stopping by, I’m currently looking to a new team of creative designers and developers.\n",
-      "color: #fff; background: #8000ff; padding:5px 0;",
-    ]);
   }, []);
 
   const handleSpeaker = () => {
@@ -128,29 +116,29 @@ const index: React.FC<indexProps> = ({}) => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
-          <title>Adeola Adeoti 🚀 &mdash; Frontend Devloper</title>
+          <title>Girum Gizachew &mdash; Frontend Devloper || FullStack Developer</title>
           <meta
             name="description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a FrontEnd Developer And A Software Engineer ."
           />
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Girum Gizachew &mdash; Frontend Devloper and FullStack Developer"
           />
           <meta property="og:url" content="https://adeolaadeoti.xyz/" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a FrontEnd Developer And A Software Engineer ."
           />
           <meta
             name="twitter:title"
-            content="Adeola Adeoti 🚀 &mdash; Frontend Devloper"
+            content="Girum Gizachew 🚀 &mdash; Frontend Devloper and FullStack Developer"
           />
           <meta
             name="twitter:description"
-            content="I'm a self-taught Front End Developer and turning ideas into real life products is my calling."
+            content="I'm a FrontEnd Developer And A Software Engineer ."
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
@@ -172,19 +160,19 @@ const index: React.FC<indexProps> = ({}) => {
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__left"
             >
-              <img src="svg/adeola-logo-left.svg" alt="adeola logo" />
+              <img src="svg/logo2.png" width={50} height={50} alt="giri logo" />
             </motion.div>
             <motion.div
               initial={{ x: 10, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
-              <p className="preloader__text">HTML</p>
-              <p className="preloader__text">CSS/SCSS</p>
-              <p className="preloader__text">JAVASCRIPT</p>
-              <p className="preloader__text">TYPESCRIPT</p>
               <p className="preloader__text">REACT JS</p>
               <p className="preloader__text">NEXT JS</p>
+              <p className="preloader__text">JAVASCRIPT</p>
+              <p className="preloader__text">TYPESCRIPT</p>
+              <p className="preloader__text">THREE JS</p>
+              <p className="preloader__text">TAILWIND CSS, CSS</p>
               <p className="preloader__text">FRAMER MOTION</p>
             </motion.div>
           </div>
@@ -198,13 +186,12 @@ const index: React.FC<indexProps> = ({}) => {
           <header className="header">
             <div className="header__hero">
               <div className="header__hero--heading">
-                <span>turning ideas into </span> <br />
-                <span>real life </span>
+                <span>Fullstack Web Devloper who speciallized </span> <br />
                 <span className="header__hero--heading-gradient">
-                  products{" "}
+                in {" "}
                 </span>
                 <br />
-                <span>is my calling.</span>
+                <span>FrontEnd development.</span>
               </div>
               <a
                 data-scroll-to
@@ -277,28 +264,28 @@ const index: React.FC<indexProps> = ({}) => {
             </div>
             <div className="header__footer--right">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/girumgizachew1"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GH
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://twitter.com/girumgizachew"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 TW
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/girum-gizachew-9324b820b/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LD
               </a>
               <a
-                href="https://www.instagram.com/adeolaadeoti_"
+                href="https://www.instagram.com/girumgizacheew"
                 rel="noopener"
                 target="_blank"
               >
@@ -310,7 +297,7 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! 👋, my name is adeola and I am a frontend engineer,
+            Hello stranger! , my name is Girum Gizachew and I am a frontend engineer,
             passionate <br /> about digital products that help people experience
             everyday life, not endure it.
           </p>
@@ -522,11 +509,10 @@ const index: React.FC<indexProps> = ({}) => {
           >
             <div className="section-reviews__top">
               <h1 className="heading-1">
-                <span>Mmmm, a little brag </span> <small>😊</small>
+                <span>i take my client Seriously  </span> <small></small>
               </h1>
               <p className="paragraph paragraph__sub">
-                What people are saying about my last portfolio
-              </p>
+                What people are saying Me              </p>
             </div>
             <div className="section-reviews__bottom">
               <div className="section-reviews__bottom-wrapper review-card__anim1">
@@ -575,10 +561,10 @@ const index: React.FC<indexProps> = ({}) => {
               Thanks for stopping by, I’m currently looking to join a new team
               of creative designers and developers. If you think we might be a
               good fit for one another, give me a
-              <a href="tel:+2349066383763"> call 🇳🇬 &nbsp;</a>
+              <a href="tel:+251987270756"> call 🇳🇬 &nbsp;</a>
               or send me an
               <a
-                href="mailto:adeolaonigegeara@gmail.com"
+                href="mailto:girumegizachew@gmail.com"
                 rel="noopener"
                 target="_blank"
               >
@@ -594,28 +580,28 @@ const index: React.FC<indexProps> = ({}) => {
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">
               <a
-                href="https://github.com/adeolaadeoti"
+                href="https://github.com/girumgizachew1"
                 rel="noopener"
                 target="_blank"
               >
                 👾 GitHub
               </a>
               <a
-                href="https://twitter.com/adeolajs"
+                href="https://twitter.com/girumgizachew"
                 rel="noopener"
                 target="_blank"
               >
                 🐦 Twitter
               </a>
               <a
-                href="https://www.linkedin.com/in/adeoladev"
+                href="https://www.linkedin.com/in/girum-gizachew-9324b820b/"
                 rel="noopener"
                 target="_blank"
               >
                 💼 LinkedIn
               </a>
               <a
-                href="https://www.instagram.com/adeolaadeoti_"
+                href="https://www.instagram.com/girumegizacheew"
                 rel="noopener"
                 target="_blank"
               >
@@ -626,8 +612,8 @@ const index: React.FC<indexProps> = ({}) => {
         </main>
         <footer className="footer">
           <img
-            src="svg/adeola-logo-footer.svg"
-            alt="design and devloped by adeola"
+            src="svg/text.png"
+            alt="design and devloped by Girum.G"
           />
           <div className="footer__socials">
             <a
