@@ -330,13 +330,13 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="alexxandria-anim"
                   className="heading-2"
                 >
-                  Alexxandria
-                  <br /> Forque
+                  hYAB gIFTS
+                  <br /> gIFTS
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://alexxandria.vercel.app/"
+                  href="https://hyab-15046.web.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
