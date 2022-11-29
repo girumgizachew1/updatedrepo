@@ -53,28 +53,28 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
           <h4 className="navigation-h4">DONT BE A STRANGER</h4>
           <div className="navigation-top__left--links">
             <a
-              href="https://github.com/adeolaadeoti"
+              href="https://github.com/girumgizachew1"
               rel="noopener"
               target="_blank"
             >
               👾 GH
             </a>
             <a
-              href="https://twitter.com/adeolajs"
+              href="https://twitter.com/girumgizachew"
               rel="noopener"
               target="_blank"
             >
               🐦 TW
             </a>
             <a
-              href="https://www.linkedin.com/in/adeoladev"
+              href="https://www.linkedin.com/in/girum-gizachew-9324b820b/"
               rel="noopener"
               target="_blank"
             >
               💼 LD
             </a>
             <a
-              href="https://www.instagram.com/adeolaadeoti_"
+              href="https://www.instagram.com/girumgizacheew"
               rel="noopener"
               target="_blank"
             >
