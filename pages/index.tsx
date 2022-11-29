@@ -297,13 +297,16 @@ const index: React.FC<indexProps> = ({}) => {
         </div>
         <main className="container">
           <p className="about-text">
-            Hello stranger! , my name is Girum Gizachew and I am a frontend engineer,
-            passionate <br /> about digital products that help people experience
-            everyday life, not endure it.
+            Hello ! , I am a Fullstack web Developer/ Software Engineer in AdissAbeba/Ethiopia with professional Frontend development skills.
+            <br/> 
+            I am passionate about leveraging my diverse backgrounds to decipher challenging problems and create delightful experiences. 
+            I honed my skills at web development, technical writing, product design and SEO analytics. 
+            <br />
+            well orginized person, problem solver, independent employee with high attention to detail 
           </p>
           <section id="sectionProjects" className="section-projects">
             <h1 className="heading-1">
-              <span>Yeah, I work hard </span> <small>💼</small>
+              <span>Some Worthy mentioning projects </span> <small>💼</small>
             </h1>
             <p className="paragraph">
               Each project is unique. Here are some of my works.
@@ -575,7 +578,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Dont be a stranger!</span> <small>👋</small>
+              <span>Wanna Work with me?</span> <small>👋</small>
             </h1>
             <p className="paragraph">Connect with me online</p>
             <div className="section-socials--links">

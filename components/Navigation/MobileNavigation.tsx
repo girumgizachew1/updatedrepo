@@ -1,6 +1,7 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 
+
 const openTransition = {
   duration: 1.1,
   delay: 1.2,
@@ -47,6 +48,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         }
         className="navigation-top"
       >
+       
         <div className="navigation-top__left">
           <h4 className="navigation-h4">DONT BE A STRANGER</h4>
           <div className="navigation-top__left--links">
@@ -100,44 +102,7 @@ export const MobileNavigation = ({ variants, isOpen }: any) => (
         }
         className="navigation-bottom"
       >
-        <h4 className="navigation-h4">FEATURED PROJECTS</h4>
-        <div className="navigation-bottom__projects">
-          <a
-            target="_blank"
-            rel="noopener"
-            href="https://alexxandria.vercel.app/"
-            className="navigation-bottom__projects-card"
-          >
-            <img src="webp/alexxandria-nav.webp" alt="alexxandria" />
-            <h2>
-              Alexxandria
-              <br />
-              Forque
-            </h2>
-          </a>
-          <a
-            href="https://safarika-adeola.netlify.app/"
-            target="_blank"
-            rel="noopener"
-            className="navigation-bottom__projects-card"
-          >
-            <img src="webp/safarika-nav.webp" alt="safarika" />
-            <h2>Safarika</h2>
-          </a>
-          <a
-            href="https://adeolaadeoti.netlify.app/"
-            target="_blank"
-            rel="noopener"
-            className="navigation-bottom__projects-card"
-          >
-            <img src="webp/adeola-1.webp" alt="adeola" />
-            <h2>
-              AdeolaAdeoti
-              <br />
-              Version 1
-            </h2>
-          </a>
-        </div>
+      
       </motion.div>
     </motion.div>
   </motion.div>

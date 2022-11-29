@@ -25,12 +25,14 @@ const variants = {
 };
 
 export const Navigation = ({ isOpen, toggleOpen }: any) => {
+
   return (
+    
     <motion.div
       initial={false}
       animate={isOpen ? "open" : "closed"}
       className="navigation-wrapper"
-    >
+    >   
       <MobileNavigation variants={variants} isOpen={isOpen} />
       <div
         data-scroll
