@@ -12,7 +12,6 @@
     height: 26rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../../public/webp/hand-left.webp");
     @media only screen and (max-width: 45em) {
       width: 20rem;
       height: 20rem;
@@ -28,7 +27,6 @@
     height: 45rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("../../public/webp/hand-right.webp");
     z-index: -1;
 
     @media only screen and (max-width: 45em) {

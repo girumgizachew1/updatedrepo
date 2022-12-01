@@ -322,8 +322,8 @@ const index: React.FC<indexProps> = ({}) => {
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/alexxandria-1.webp" alt="alexxandria model" />
-                <img src="webp/alexxandria-2.webp" alt="alexxandria logo" />
+                <img src="webp/hyab1.png" alt="alexxandria model" />
+                <img src="webp/hyab1.png" alt="alexxandria logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -344,31 +344,20 @@ const index: React.FC<indexProps> = ({}) => {
                 >
                   VISIT THE WEBSITE
                 </a>
-                <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/alexxandria"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
+                
                 </div>
-              </div>
             </div>
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">REACT JS, FRAMER MOTION</h4>
+                <h4 className="heading-4">REACT JS, Tailwindcss, NodeJS</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/safarika-1.webp" alt="safarika" />
-                <img src="webp/safarika-2.webp" alt="safarika logo" />
+                <img src="webp/abyssinaye.png" alt="abyssinaye" />
+                <img src="webp/abyssinaye.png" alt="abyssinaye logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -378,47 +367,32 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="safarika-anim"
                   className="heading-2"
                 >
-                  Safarika
+                  Abyssiniaye ኢትዮጲያን እንወቅ
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://safarika-adeola.netlify.app/"
+                  href="https://abyssiniaye.netlify.app/"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
-                <div className="project-card__socials">
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://dribbble.com/shots/12361426-Safarika-Adventure"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/safarika"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
-                </div>
+                
               </div>
             </div>
 
             <div className="project-card">
               <div className="project-card__left">
                 <h4 className="heading-4">
-                  NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION
+                 JavaScript , Scss, 
                 </h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/heatrow-1.webp" alt="heatrow" />
-                <img src="webp/heatrow-2.webp" alt="heatrow logo" />
+                <img src="webp/infinite.jpg" alt="heatrow" />
+                <img src="webp/infinite.jpg" alt="heatrow logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -428,42 +402,30 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="heatrow-anim"
                   className="heading-2"
                 >
-                  Heatrow
-                  <br /> Estate
+                  In-finite
+                  <br /> Consulting
                 </h2>
                 <a
-                  href="https://heatrow.vercel.app/"
+                  href="https://in-finiteconsulting.com/final"
                   rel="noopener"
                   target="_blank"
                   className="project-card__link"
                 >
                   VISIT THE WEBSITE
                 </a>
-                <div className="project-card__socials">
-                  <a href="#">
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/heatrow"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
-                </div>
               </div>
             </div>
 
             <div className="project-card">
               <div className="project-card__left">
-                <h4 className="heading-4">HTML, SCSS, JAVASCRIPT, GSAP</h4>
+                <h4 className="heading-4">Wordpress, JAVASCRIPT</h4>
               </div>
               <div
                 className="project-card__middle"
                 data-displacement="webp/myDistorsionImage.webp"
               >
-                <img src="webp/adeola-1.webp" alt="adeola model" />
-                <img src="webp/adeola-2.webp" alt="adeola logo" />
+                <img src="webp/giriv1.png" alt="adeola model" />
+                <img src="webp/giriv1.png" alt="adeola logo" />
               </div>
               <div className="project-card__right">
                 <h2
@@ -473,33 +435,17 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll-class="adeola-anim"
                   className="heading-2"
                 >
-                  AdeolaAdeoti
+                  Girum Gizachew 
                   <br /> version 1
                 </h2>
                 <a
                   rel="noopener"
                   target="_blank"
-                  href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
+                  href="https://girumgizachew.netlify.app/"
                   className="project-card__link"
                 >
-                  VIEW SOURCE CODE
+                  Visit the Website
                 </a>
-                <div className="project-card__socials">
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://dribbble.com/shots/12338926-Adeola-Adeoti-Portfolio"
-                  >
-                    <img src="svg/dribble.svg" alt="dribble icon" />
-                  </a>
-                  <a
-                    rel="noopener"
-                    target="_blank"
-                    href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio"
-                  >
-                    <img src="svg/github.svg" alt="github icon" />
-                  </a>
-                </div>
               </div>
             </div>
           </section>
@@ -578,7 +524,7 @@ const index: React.FC<indexProps> = ({}) => {
           </section>
           <section className="section-socials">
             <h1 className="heading-1">
-              <span>Wanna Work with me?</span> <small>👋</small>
+              <span>Wanna To contact me?</span> <small>👋</small>
               <a href="https://www.buymeacoffee.com/girumegizaM?new=1" >Buy me coffee</a> <small>👋</small>
             </h1>
             <p className="paragraph">Connect with me online</p>
@@ -620,15 +566,8 @@ const index: React.FC<indexProps> = ({}) => {
             alt="design and devloped by Girum.G"
           />
           <div className="footer__socials">
-            <a
-              href="https://dribbble.com/shots/16100745-Adeola-Adeoti-Personal-Website"
-              target="_blank"
-              rel="noopener"
-            >
-              <img src="svg/dribble.svg" alt="dribble logo" />
-            </a>
-            <a
-              href="https://github.com/adeolaadeoti/adeolaadeoti-v2"
+                   <a
+              href="https://github.com/girumgizachew1"
               target="_blank"
               rel="noopener"
             >
