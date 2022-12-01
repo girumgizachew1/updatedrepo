@@ -116,6 +116,7 @@ const index: React.FC<indexProps> = ({}) => {
             name="apple-mobile-web-app-status-bar-style"
             content="#10101A"
           />
+          <meta name="google-site-verification" content="yPdBVDKst-ITfiTQPTkB8rxQjArTSTzqFJ65hJK9C4Q" />
           <title>Girum Gizachew &mdash; Frontend Devloper || FullStack Developer</title>
           <meta
             name="description"
