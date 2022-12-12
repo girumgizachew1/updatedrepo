@@ -97,6 +97,52 @@
   background-size: 400% 400%;
   animation: gradient 3s ease-in-out;
 }
+.giriv1-anim {
+  background: linear-gradient(
+    -45deg,
+    #06f56a,
+    #08c274,
+    var(--color-white),
+    var(--color-white)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 3s ease-in-out;
+}
+
+
+.hulu-anim {
+  background: linear-gradient(
+    -45deg,
+    #f1f506,
+    #11fc1d,
+    var(--color-white),
+    var(--color-white)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 3s ease-in-out;
+}
+
+
+.tolo-anim {
+  background: linear-gradient(
+    -45deg,
+    #f50606,
+    #f06767,
+    var(--color-white),
+    var(--color-white)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient 3s ease-in-out;
+}
 
 .adeola-anim {
   background: linear-gradient(

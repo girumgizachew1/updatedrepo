@@ -433,7 +433,7 @@ const index: React.FC<indexProps> = ({}) => {
                   data-scroll
                   data-scroll-offset="35%"
                   data-scroll-repeat={true}
-                  data-scroll-class="adeola-anim"
+                  data-scroll-class="giriv1-anim"
                   className="heading-2"
                 >
                   Girum Gizachew 
@@ -449,6 +449,122 @@ const index: React.FC<indexProps> = ({}) => {
                 </a>
               </div>
             </div>
+
+
+
+
+            <div className="project-card">
+              <div className="project-card__left">
+                <h4 className="heading-4">React.js, Mysql, Express.js, Node.js</h4>
+              </div>
+              <div
+                className="project-card__middle"
+                data-displacement="webp/myDistorsionImage.webp"
+              >
+                <img src="webp/dgh.jpg" alt="adeola model" />
+                <img src="webp/dgh.jpg" alt="adeola logo" />
+              </div>
+              <div className="project-card__right">
+                <h2
+                  data-scroll
+                  data-scroll-offset="35%"
+                  data-scroll-repeat={true}
+                  data-scroll-class="adeola-anim"
+                  className="heading-2"
+                >
+                  DGH Ecommerce
+                  <br /> And Analytics
+                </h2>
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://e-comm-e8626.web.app/"
+                  className="project-card__link"
+                >
+                  Visit the Website
+                </a>
+              </div>
+            </div>
+
+
+
+            <div className="project-card">
+              <div className="project-card__left">
+                <h4 className="heading-4">React.js, Mysql, Express.js, Node.js</h4>
+              </div>
+              <div
+                className="project-card__middle"
+                data-displacement="webp/myDistorsionImage.webp"
+              >
+                <img src="webp/HULU.webp" alt="adeola model" />
+                <img src="webp/HULU.webp" alt="adeola logo" />
+              </div>
+              <div className="project-card__right">
+                <h2
+                  data-scroll
+                  data-scroll-offset="35%"
+                  data-scroll-repeat={true}
+                  data-scroll-class="hulu-anim"
+                  className="heading-2"
+                >
+                  Hulu Habeshan
+                  <br /> Shirts
+                </h2>
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="http://hulutryshirts.unaux.com/"
+                  className="project-card__link"
+                >
+                  Visit the Website
+                </a>
+              </div>
+            </div>
+
+
+
+
+
+            <div className="project-card">
+              <div className="project-card__left">
+                <h4 className="heading-4">Reactjs, nodeJs, CSS, JAVASCRIPT</h4>
+              </div>
+              <div
+                className="project-card__middle"
+                data-displacement="webp/myDistorsionImage.webp"
+              >
+                <img src="webp/imagebound.jpg" alt="adeola model" />
+                <img src="webp/imagebound.jpg" alt="adeola logo" />
+              </div>
+              <div className="project-card__right">
+                <h2
+                  data-scroll
+                  data-scroll-offset="35%"
+                  data-scroll-repeat={true}
+                  data-scroll-class="tolo-anim"
+                  className="heading-2"
+                >
+                  Tolo  
+                  <br />Delivery
+                </h2>
+                <a
+                  rel="noopener"
+                  target="_blank"
+                  href="https://jimma-36404.web.app/"
+                  className="project-card__link"
+                >
+                  Visit the Website
+                </a>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
           </section>
           <section
             data-scroll
