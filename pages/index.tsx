@@ -110,7 +110,7 @@ const index: React.FC<indexProps> = ({}) => {
       <div id="menu-target" data-scroll-container ref={refScroll}>
         <Head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6513560829041028"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
           <link rel="icon" href="svg/logo2.png" />
           <link href="https://girum.netlify.app/" rel="canonical" />
           <meta name="theme-color" content="#10101A" />
