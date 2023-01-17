@@ -9,13 +9,6 @@ import  Hero  from "../components/Navigation/hero";
 import ReactGa from "react-ga";
 interface indexProps {}
 
-interface Ireply {
-  id: number;
-  name: string;
-  userName: string;
-  reply: string;
-}
-
 const locomotiveScroll =
   typeof window !== `undefined` ? require("locomotive-scroll").default : null;
 
