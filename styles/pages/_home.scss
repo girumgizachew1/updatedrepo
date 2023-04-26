@@ -214,15 +214,10 @@
 
   .section-projects {
   grid-column: 2/14;
-  margin-top: 20rem;
+  margin-top: 10rem;
   padding: 0 6rem;
-
-  @media only screen and (max-width: 57em) {
-    grid-column: 1/15;
-  }
-  @media only screen and (max-width: 45em) {
-    padding: 0 4rem;
-  }
+  
+  
 
   p {
     margin-bottom: 5rem;

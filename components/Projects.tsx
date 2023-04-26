@@ -1,9 +1,7 @@
-
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 import Projectcard from './Projectcard';
 const projects = [
     {
@@ -46,64 +44,46 @@ const projects = [
 ];
 
 function Projects() {
-    const [slidesToShow, setSlidesToShow] = useState(2);
-    const [slidesToScroll, setSlidesToScroll] = useState(2);
-
-    const responsiveSettings = [
-        {
-            breakpoint: 768, // adjust as needed
+    var settings = {
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        initialSlide: 0,
+        responsive: [
+          {
+            breakpoint: 1024,
             settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-            },
-        },
-    ];
-
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth < 1240) {
-                setSlidesToShow(1);
-                setSlidesToScroll(1);
-            } else {
-                setSlidesToShow(2);
-                setSlidesToScroll(2);
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
             }
-        };
-
-        window.addEventListener("resize", handleResize);
-        handleResize(); // set initial values based on screen size
-
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
-    }, []);
+          },
+          
+        ]
+      };
 
     return (
-        <div>
-            <section id="sectionProjects" className="section-projects mt-1">
-                <h1 className="heading-1">
-                    <span>Some Worthy mentioning projects </span> <small>💼</small>
-                </h1>
-                <p className="paragraph">
-                    Each project is unique. Here are some of my works.
-                </p>
-
-                <div className="grid lg:grid-cols-1 gap-2 md:grid-cols-1">
-                    <Slider dots
-                        infinite
-                        speed={100}
-                        slidesToShow={slidesToShow}
-                        slidesToScroll={slidesToScroll}
-                        adaptiveHeight
-                        responsive={responsiveSettings}>
-                        {projects.map((project) => (
-                            <Projectcard project={project} />
-                        ))}
-                    </Slider>
-
-
-                </div>
-            </section></div>
+        <div className='w-full' >
+        <section id="sectionProjects" className="section-projects mt-1">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-center mb-4 md:mb-8">
+            <span>Some Worthy mentioning projects </span> <small>💼</small>
+          </h1>
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-600 text-center mb-8">
+            Each project is unique. Here are some of my works.
+          </p>
+  
+          <div className="grid grid-cols-1 gap-2">
+            <Slider {...settings}>
+              {projects.map((project) => (
+                <Projectcard project={project} key={project.name} />
+              ))}
+            </Slider>
+          </div>
+        </section>
+      </div>
     )
 }
 
