@@ -17,7 +17,7 @@ function hero() {
   return (
     <main className="flex flex-col justify-center items-center">
       <section>
-        <p className="about-text mx-10 md:mx-48 ">
+        <p className="about-text mt-40 mx-10 md:mx-48 ">
           Greetings! I am a proficient Fullstack Web Developer/Software Engineer hailing from Addis Ababa, Ethiopia.
           <br />
           My areas of expertise lie in professional Frontend development, wherein I possess exceptional skills. I take immense pride in utilizing my multifaceted background to decrypt intricate problems and craft splendid experiences. My competencies extend to the fields of web development, technical writing, product design, and SEO analytics.

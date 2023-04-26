@@ -20,13 +20,13 @@ function navbar() {
       <header className="header flex-grow flex flex-col justify-center items-center">
         <div className="header__hero flex flex-col justify-center items-center">
           <div className="text-8xl font-extrabold text-white text-left space-y-4 ">
-            <span className='rounded-xl px-4 py-2' >Fullstack Web Developer who specializes </span>
+            <span className='rounded-xl  py-2' >Fullstack Web Developer who specializes </span>
             <br />
             <span className="header__hero--heading-gradient">in</span>
             <br />
             <span className='rounded-xl px-4 py-2 ' > FrontEnd development.</span>
           </div>
-          <div className='flex w-full justify-between' >
+          <div className='flex w-full justify-between px-28' >
           <a
             data-scroll-to
             className="header__hero--cta mt-52 "
@@ -47,7 +47,7 @@ function navbar() {
         </div>
       </header>
 
-      <div className="w-full py-10 px-28 flex justify-between items-center py-4">
+      <div className="w-full py-10 px-10 flex justify-between items-center mt-20 py-4">
         <div className="speaker">
           <div
             onClick={handleSpeaker}
