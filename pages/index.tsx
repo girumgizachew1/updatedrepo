@@ -3,8 +3,8 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import { Navigation } from "../components/Navigation/Navigation";
 import  Footer  from "../components/Navigation/Footer";
-import  Navbar  from "../components/Navigation/navbar";
-import  Hero  from "../components/Navigation/hero";
+import  Navbar  from "../components/navbar";
+import  Hero  from "../components/hero";
 
 import ReactGa from "react-ga";
 interface indexProps {}
@@ -111,7 +111,7 @@ const index: React.FC<indexProps> = ({}) =>
             property="og:title"
             content="Girum Gizachew &mdash; Frontend Devloper and FullStack Developer"
           />
-          <meta property="og:url" content="https://adeolaadeoti.xyz/" />
+          <meta property="og:url" content="" />
           <meta property="og:image" content="webp/preview-image.png" />
           <meta
             property="og:description"
@@ -127,8 +127,12 @@ const index: React.FC<indexProps> = ({}) =>
           />
           <meta name="twitter:image" content="webp/preview-image.png" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:url" content="https://adeolaadeoti.xyz/" />
+          <meta name="twitter:url" content="" />
         </Head>
+
+
+
+
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
         </audio>
@@ -148,7 +152,7 @@ const index: React.FC<indexProps> = ({}) =>
               <img src="svg/logo2.png" width={50} height={50} alt="giri logo" />
             </motion.div>
             <motion.div
-              initial={{ x: 10, opacity: 0 }}
+              initial={{ x: 15, opacity: 0 }}
               animate={{ x: 0, opacity: 1, transition: { ...transition } }}
               className="preloader__right"
             >
@@ -160,6 +164,7 @@ const index: React.FC<indexProps> = ({}) =>
               <p className="preloader__text">TAILWIND CSS, CSS</p>
               <p className="preloader__text">FRAMER MOTION</p>
             </motion.div>
+
           </div>
         </motion.div>
         <div className="cursor"></div>
