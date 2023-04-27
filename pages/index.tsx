@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import Head from "next/head";
 import { motion } from "framer-motion";
 import { Navigation } from "../components/Navigation/Navigation";
 import  Footer  from "../components/Navigation/Footer";
 import  Navbar  from "../components/navbar";
 import  Hero  from "../components/hero";
-
-import ReactGa from "react-ga";
 interface indexProps {}
 
 const locomotiveScroll =
@@ -15,25 +13,17 @@ const locomotiveScroll =
 const hoverEffect =
   typeof window !== `undefined` ? require("hover-effect").default : null;
 
-const transition: { duration: number; ease: number[] } = {
-  duration: 1.4,
-  ease: [0.6, 0.01, -0.05, 0.9],
-};
-
 
 const index: React.FC<indexProps> = ({}) => 
 {
-
+  const transition = useMemo(
+    () => ({ duration: 1.4, ease: [0.6, 0.01, -0.05, 0.9] }),
+    []
+  );
   const [isToggleOpen, setIsToggleOpen] = useState<boolean>(false);
-
-
-  const refScroll = React.useRef(null);
+  const refScroll = useRef(null);
   let lscroll: any;
-
-  React.useEffect(() => {
-    ReactGa.initialize("UA-177100391-3");
-    ReactGa.pageview(window.location.pathname + window.location.search);
-
+  useEffect(() => {
     if (!refScroll.current) return;
     // @ts-ignore
     lscroll = new locomotiveScroll({
@@ -43,7 +33,6 @@ const index: React.FC<indexProps> = ({}) =>
       multiplier: 0.75,
       inertia: 0.5,
     });
-
     // update locomotive scroll
     window.addEventListener("load", () => {
       let image = document.querySelector("img");
@@ -51,8 +40,9 @@ const index: React.FC<indexProps> = ({}) =>
       const isLoaded = image!.complete && image!.naturalHeight !== 0;
       lscroll.update();
     });
-
-    // image hover effect
+  }, [refScroll.current]);
+  
+  useEffect(() => {
     Array.from(document.querySelectorAll(".project-card__middle")).forEach(
       (el: any) => {
         const imgs: any = Array.from(el.querySelectorAll("img"));
@@ -69,24 +59,24 @@ const index: React.FC<indexProps> = ({}) =>
         });
       }
     );
+  }, []);
 
-    // header cursor
+  useEffect(() => {
     const cursor = document.querySelector(".cursor");
     window.onmousemove = (e: any) => {
       cursor!.setAttribute("style", `top: ${e.pageY}px; left: ${e.pageX}px;`);
     };
-
-    console.clear();
   }, []);
+  
+  
 
   function toggleBodyScroll(isToggleOpen: boolean) {
     if (isToggleOpen === false) {
       setIsToggleOpen(true);
-    } else if (isToggleOpen === true) {
+    } else {
       setIsToggleOpen(false);
     }
   }
-
   return (
     <>
       <div id="menu-target" data-scroll-container ref={refScroll}>
@@ -129,10 +119,6 @@ const index: React.FC<indexProps> = ({}) =>
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content="" />
         </Head>
-
-
-
-
         <audio loop id="audioPlayer" autoPlay style={{ display: "none" }}>
           <source src="sound/preloader.mp3" type="audio/mp3" />
         </audio>
@@ -171,8 +157,7 @@ const index: React.FC<indexProps> = ({}) =>
         <Navigation
           isOpen={isToggleOpen}
           toggleOpen={() => toggleBodyScroll(isToggleOpen)}
-        />
-        
+        />        
           <Navbar/>
           <Hero/>
           <Footer/>

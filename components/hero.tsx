@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { memo } from 'react'
 import useSwr from "swr";
 import Address from './Address';
 import Reviewcard from './Reviewcard';
 import Projects from './Projects';
+
 const fetcher = (url: any) => fetch(url).then((res) => res.json());
+
 interface Ireply {
   id: number;
   name: string;
   userName: string;
   reply: string;
 }
-function hero() {
+
+function Hero() {
   const { data: reviews, error } = useSwr("/api/tweets", fetcher);
 
   if (error) console.log(error);
+
   return (
     <main className="flex flex-col justify-center items-center">
       <section>
@@ -40,24 +44,19 @@ function hero() {
         data-scroll-class="section-reviews__bg"
         className="section-reviews"
       >
-
-
         <div className="col-span-5 overflow-x-hidden mt-32 mb-16;">
-          <div className="flex items-center justify-center max-w-max1 flex-wrap">
-            {reviews?.data.map((review: Ireply, index: number) => {
-              if (index < 10) {
-                return <Reviewcard review={review} key={review.id} />;
-              }
-              return null;
-            })}
-          </div>
-
+          {reviews && reviews.data && (
+            <div className="flex items-center justify-center max-w-max1 flex-wrap">
+              {reviews.data.slice(0, 10).map((review: Ireply) => (
+                <Reviewcard review={review} key={review.id} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
       <section> <Address /> </section>
-
     </main>
-
   )
 }
-export default hero
+
+export default memo(Hero);
