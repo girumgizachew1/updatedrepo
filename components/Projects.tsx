@@ -24,15 +24,6 @@ const projects = [
         image2: 'webp/abyssinaye.png',
     },
     {
-        name: "Girum Gizachew version 1",
-        techStack: "Wordpress, JAVASCRIPT",
-        image1: "webp/giri.png",
-        image2: "webp/giri.png",
-        caselink: '/projects/ggv1',
-        link: "https://girumgizachew.netlify.app/",
-        animationClass: "girum-anim"
-    },
-    {
         name: 'hYAB gIFTS',
         techStack: 'NEXT JS, LOCOMOTIVE SCROLL, FRAMER MOTION',
         animationClass: 'alexxandria-anim',
@@ -41,6 +32,16 @@ const projects = [
         image1: 'webp/hyab1.png',
         image2: 'webp/hyab1.png',
     },
+    {
+        name: "Girum Gizachew version 1",
+        techStack: "Wordpress, JAVASCRIPT",
+        image1: "webp/giri.png",
+        image2: "webp/giri.png",
+        caselink: '/projects/ggv1',
+        link: "https://girumgizachew.netlify.app/",
+        animationClass: "girum-anim"
+    },
+    
 ];
 
 function Projects() {

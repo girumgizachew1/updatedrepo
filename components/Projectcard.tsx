@@ -35,6 +35,8 @@ function Projectcard({ project }: any) {
                 </a>
                 <a
                    
+                   rel="noopener"
+                   target="_blank"
                     href={project.link}
                     className="project-card__link"
                 >

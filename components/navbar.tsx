@@ -27,22 +27,18 @@ function navbar() {
             <span className='rounded-xl px-4 py-2 ' > FrontEnd development.</span>
           </div>
           <div className='flex w-full justify-between px-28' >
-          <a
-            data-scroll-to
-            className="header__hero--cta mt-52 "
-            href="#sectionProjects"
-          >
-            VIEW PROJECTS
-          </a>
-          <a
-            data-scroll-to
-            className="header__hero--cta "
-            href="#sectionProjects"
-          >
-            Download Cv
-          </a>
+            <a
+              data-scroll-to
+              className="header__hero--cta mt-52 "
+              href="#sectionProjects"
+            >
+              VIEW PROJECTS
+            </a>
+            <a className="header__hero--cta" href="/webp/girumresume.pdf" download>
+              Download Cv
+            </a>
           </div>
-          
+
 
         </div>
       </header>
