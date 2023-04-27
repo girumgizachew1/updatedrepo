@@ -41,7 +41,7 @@ const projects = [
         link: "https://girumgizachew.netlify.app/",
         animationClass: "girum-anim"
     },
-    
+    //project
 ];
 
 function Projects() {
