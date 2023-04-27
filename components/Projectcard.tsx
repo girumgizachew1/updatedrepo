@@ -26,14 +26,15 @@ function Projectcard({ project }: any) {
                     {project.name}
                 </h2>
                 <div className='flex flex-col space-y-8' >
-                <Link
+                <a 
+                     rel="noopener"
+                    target="_blank"
                     href={project.caselink}
                 >
                     Case Study
-                </Link>
+                </a>
                 <a
-                    rel="noopener"
-                    target="_blank"
+                   
                     href={project.link}
                     className="project-card__link"
                 >

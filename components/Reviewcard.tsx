@@ -9,9 +9,6 @@ function Reviewcard({review}:any) {
                     <p className="text-3xl uppercase leading-tight tracking-widest text-gray-200">{review.name}</p>
                     <h3 className="text-4xl leading-tight  tracking-tighter text-gray-500 mt-6 font-thin">{review.userName}</h3>
                   </div>
-                  <div className="review-card__top--right">
-                    <img src="svg/twitter.svg" alt="twitter icon" />
-                  </div>
                 </div>
                 <div className="review-card__bottom">
                   <h2 className="text-2xl leading-tight text-gray-400 font-thin">{review.reply}</h2>
